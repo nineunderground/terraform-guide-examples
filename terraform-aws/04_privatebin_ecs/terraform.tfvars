@@ -1,0 +1,9 @@
+tags                            = {OWNER="ME"}
+r53_endpoint_url                = "sendsecrets.<MY-DOMAIN>"
+r53_hosted_zone_id              = "<MY-R53-PUBLIC-ZONE-ID>"
+acm_certificate_foodieservices  = "arn:aws:acm:eu-west-1:123456789012:certificate/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+vpc_id                          = "vpc-XXXXXXXX"
+subnets_id_a                    = "subnet-XXXXXXXX"
+subnets_id_b                    = "subnet-XXXXXXXX"
+running_containers_min          = "1"
+running_containers_max          = "3"
