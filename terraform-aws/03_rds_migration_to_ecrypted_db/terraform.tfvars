@@ -1,0 +1,13 @@
+tags                                = {OWNER="ME"}
+not_encrypted_snapshot_identifier   = "<INITIAL-SNAPSHOT-FROM-NOT-ENCRYPTED-DB>"
+encrypted_snapshot_identifier       = "<ENCRYPTED-SNAPSHOT-COPIED-FROM-INITIAL-SNAPSHOT>"
+encryption_kms_key_id               = "<NEW-ENCRYPTED-DB-KMS-KEY-ID>"
+rds_subnet_group                    = "<NEW-ENCRYPTED-DB-SUBNET-GROUP>"
+db_type                             = "<NEW-ENCRYPTED-DB-CPU-TYPE>"
+rds_db_name                         = "<NEW-ENCRYPTED-DB-NAME>"
+db_engine                           = "<DB-ENGINE-TO-BE-ENCRYPTED>"
+db_engine_version                   = "<DB-VERSION-TO-BE-ENCRYPTED>"
+db_engine_parameter_group           = "<DB-PARAMETER-GROUP-TO-BE-ENCRYPTED>"
+db_source_identifier                = "<DB-NAME-TO-BE-ENCRYPTED>"
+db_dns_recordset                    = "<ENCRYPTED-DB-ENDPOINT>"
+db_r53_hosted_zone_id               = "<HOSTED-ZONE-ID>"
